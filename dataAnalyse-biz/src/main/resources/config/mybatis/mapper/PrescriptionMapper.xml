@@ -1,0 +1,22 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >-->
+<!--<mapper namespace="com.xugang.repository.PrescriptionRepository">-->
+       <!--<sql id="Base_Column_List">-->
+            <!--id,medicine_id,name,weight-->
+       <!--</sql>-->
+
+       <!--<insert id="bathInsert" parameterType="java.util.List">-->
+              <!--INSERT INTO prescription-->
+              <!--(-->
+              <!--medicine_id,name,weight-->
+              <!--)-->
+              <!--VALUES-->
+              <!--<foreach collection="list" item="item" index="index" separator="," >-->
+                     <!--(#{item.medicineId},#{item.name},#{item.weight})-->
+              <!--</foreach>-->
+       <!--</insert>-->
+
+
+
+
+<!--</mapper>-->
